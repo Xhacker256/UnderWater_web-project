@@ -34,11 +34,11 @@ nav{
 
 nav ul li{
     
-    text-align: center;
+    text-align: right;
     display: inline;
 }
 nav ul li a{
-    margin-right: 40px;
+    margin-right: 20px;
     font-size: 20px;
     color: rgb(147, 162, 211);
     text-decoration: none;

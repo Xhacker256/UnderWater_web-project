@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    
+    background-image: url(/images/jellyfish.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+nav{
+    background-color: rgb(9, 52, 92);
+    padding: 20px;
+}
+
+#menu-bars{
+    color: rgba(255, 255, 255, 0.575);
+    font-size: 25px;
+    margin-right: 2em;
+    
+    
+}
+#menu-bars:hover{
+    color: rgba(255, 255, 255, 0.986);
+    cursor: pointer;
+}
+
+nav ul li{
+    
+    text-align: center;
+    display: inline;
+}
+nav ul li a{
+    margin-right: 40px;
+    font-size: 20px;
+    color: rgb(147, 162, 211);
+    text-decoration: none;
+    list-style: none;
+    
+}
+nav ul li a:hover{
+    
+    color: rgb(210, 210, 226);
+    text-decoration-line: underline;
+    
+    
+}
+
+.container-1{
+    background-color: rgba(15, 15, 15, 0.473);
+    max-height: 200px;
+    max-width: 60%;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.658);
+    border: 1px dotted black;
+    border-radius: 20px;
+    margin-left: 2px;
+    box-shadow: 10px 5px 5px lightblue;
+
+}
+
+img{
+    max-width: 60%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-left: 2px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    font-size: 0.7em;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: rgba(245, 245, 245, 0.623);
+    padding: 10px;
+    text-align: center;
+}

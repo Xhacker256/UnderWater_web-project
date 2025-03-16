@@ -20,6 +20,10 @@ nav{
     padding: 20px;
 }
 
+.menu-div{
+    display: inline;
+}
+
 #menu-bars{
     color: rgba(255, 255, 255, 0.575);
     font-size: 25px;
@@ -32,17 +36,23 @@ nav{
     cursor: pointer;
 }
 
+nav ul{
+    list-style: none;
+    display: inline;
+    position: absolute;
+    right: 0;
+}
 nav ul li{
     
-    text-align: right;
     display: inline;
 }
+
 nav ul li a{
     margin-right: 20px;
     font-size: 20px;
     color: rgb(147, 162, 211);
     text-decoration: none;
-    list-style: none;
+    
     
 }
 nav ul li a:hover{
@@ -74,6 +84,9 @@ img{
     margin-left: 2px;
 
 }
+
+
+
 
 
 
